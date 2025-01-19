@@ -26,6 +26,11 @@ a {
 }
 
 /*Main*/
+#get-in-touch {
+    font-size: 35px; 
+    text-align: center;
+}
+
 
 .first-img {
   width: 45%;
@@ -36,4 +41,33 @@ a {
 footer {
   margin-top: 1rem;
   border-top: 1px solid black;
+}
+
+/* Contact Form*/ 
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form label {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1rem;
+}
+
+form input,
+form textarea {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 0.8rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
