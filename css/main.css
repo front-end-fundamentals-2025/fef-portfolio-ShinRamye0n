@@ -4,13 +4,18 @@
 
 /* Header*/
 #logo {
-font-weight:600;
-font-size: 1.2rem;
-border: 2px solid pink;
-display: inline;
-padding: 5px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: 2px solid black;
+  display: inline;
+  padding: 5px;
 }
 
+body {
+  background-color: #ffe5f6;
+  /*Positioning*/
+  margin-top: 40px;
+}
 ul {
   list-style: none;
   padding-left: 1px;
@@ -29,6 +34,6 @@ a {
 /*Footer*/
 
 footer {
-    margin-top: 1rem;
-    border-top: 1px solid black;
+  margin-top: 1rem;
+  border-top: 1px solid black;
 }
