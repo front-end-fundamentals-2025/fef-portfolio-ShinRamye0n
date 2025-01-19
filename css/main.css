@@ -1,3 +1,16 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+
+ul {
+  list-style: none;
+  padding-left: 1px;
+}
+
+a {
+  color: black;
+}
+
+.first-img {
+  width: 45%;
+}
