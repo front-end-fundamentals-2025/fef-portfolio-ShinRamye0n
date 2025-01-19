@@ -2,6 +2,15 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* Header*/
+#logo {
+font-weight:600;
+font-size: 1.2rem;
+border: 2px solid pink;
+display: inline;
+padding: 5px;
+}
+
 ul {
   list-style: none;
   padding-left: 1px;
@@ -11,6 +20,15 @@ a {
   color: black;
 }
 
+/*Main*/
+
 .first-img {
   width: 45%;
+}
+
+/*Footer*/
+
+footer {
+    margin-top: 3rem;
+    border-top: 1 px solid black;
 }
