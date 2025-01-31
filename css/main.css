@@ -17,10 +17,14 @@ body {
   margin-top: 40px;
 }
 ul {
+  display: flex;
   list-style: none;
   padding-left: 1px;
 }
 
+li{
+  margin-left: 3rem;
+}
 a {
   color: black;
 }
