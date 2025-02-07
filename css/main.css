@@ -49,6 +49,29 @@ animation: fadeIn 3s ease-in-out;
     opacity: 1; 
   }
 }
+/*Zoom in on Work projects*/
+@keyframes zoomIn {
+  0% {
+    transform: scale(1); 
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+.work-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  animation: zoomIn 1s ease-out forwards;
+}
+
+
+#testing {
+  animation: fadeIn 3s ease-in-out;
+}
 
 .first-img {
   width: 45%;
@@ -128,7 +151,7 @@ form button {
   border-radius: 8px;
 }
 
-/* Media Query*/
+/*Media Query*/
 @media (max-width: 768px) {
   .work-grid {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
